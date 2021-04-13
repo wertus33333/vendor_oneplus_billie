@@ -56,28 +56,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentOKGoogleHEXAGON",
-	owner: "oneplus",
-	apk: "proprietary/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "HotwordEnrollmentXGoogleHEXAGON",
-	owner: "oneplus",
-	apk: "proprietary/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "WfdService",
 	owner: "oneplus",
 	apk: "proprietary/priv-app/WfdService/WfdService.apk",
